@@ -1,0 +1,495 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-top: -20px;
+}
+
+header {
+	padding: 0px;
+}
+
+#header {
+	background-color: rgba(255, 255, 255, 0.8);
+	display: block;
+	position: fixed;
+}
+
+#flashIncorrecto {
+	background-color: rgba(168, 20, 20, 0.4);
+	border: solid 1px rgba(255, 20, 20, 0,8);
+	margin: -20px 60px 10px 60px;
+	border-radius: 2px;
+	font-family: lato;
+}
+
+#portadaIndex {
+	background: url("../imgs/primeraa.jpg") no-repeat center center fixed;
+	
+}
+
+#contactoIndex {
+	background: url("../imgs/primeraa.jpg") no-repeat center center fixed;
+	height: 600px;
+}
+
+.textPortada {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
+	padding-top: 150px;
+	padding-right: 50px;
+	margin-left: 68%;
+	font-size: 100px;
+}
+
+.portadaDos {
+	height: 700px;
+}
+
+.indexImg{
+	position: relative;
+}
+
+.fondoBlanco {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.loginImg {
+	background: url("../imgs/roadster_21.png") no-repeat fixed;
+}
+
+.loginForm {
+	background-color: rgba(68, 68, 68, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 15px;
+	width: 30%;
+	margin: auto;
+	padding:20px 0px 30px 0px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.usuarioForm {
+	background-color: rgba(68, 68, 68, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 15px;
+	width: 30%;
+	margin: auto;
+	padding: 0px 35px 0px 35px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.contenedor {
+	width: 100%;
+	height: 110%;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	padding: 12px;
+	text-align: right;
+}
+
+.cont {
+	font-family: broadway;
+	font-size: 24px;
+	border-bottom: medium solid #5EB753;
+	display: inline-table;
+}
+
+.border-white {
+	
+	margin: 40px;
+	padding: 5px;
+}
+
+.contenido {
+	font-family: papyrus;
+	font-size: 20px;
+}
+
+.conte{
+	font-family: broadway;
+	font-size: 20px;
+}
+
+.imgIndex {
+	max-width: 90px;
+	max-height: 90px;
+	margin-top: 20px;
+}
+
+.imgppl {
+	max-height: 400px;
+	max-width: 400px;
+	margin-top: 40px;
+}
+
+.boton {
+	text-decoration: none;
+	border: 1px solid rgb(321, 101, 112);
+	color: rgb(321, 101, 112);
+	padding: 7px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+
+.boton:hover {
+	background-color: rgb(321, 101, 112);
+	color: #fff;
+	border: 1px solid rgb(321, 101, 112);
+}
+
+.inputLogin {
+	background-color: rgba(255, 255, 255, 0.8);
+	font-family: verdana;
+	border-style: none;
+	text-align: left;
+	color: grey;
+	font-size: 18px;
+	padding: 5px 0px 5px 5px;
+	border: 0.5px solid rgba(68, 68, 68, 0.3);
+}
+
+.inputContacto {
+	background-color: #fff;
+	font-family: 'century gothic';
+	border-style: none;
+	text-align: left;
+	color: grey;
+	font-size: 18px;
+	padding: 5px 0px 5px 5px;
+	border: 0.5px solid rgba(68, 68, 68, 0.3);
+	border-radius: 3px;
+}
+
+.inputMensaje {
+	background-color: #fff;
+	font-family: 'century gothic';
+	border-style: none;
+	text-align: left;
+	color: grey;
+	font-size: 18px;
+	padding: 20px 300px 20px 300px;
+	border: 0.5px solid rgba(68, 68, 68, 0.3);
+	border-radius: 3px;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.latoCont {
+	font-family: 'lato';
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.latoC {
+	font-family: 'lato';
+	color: grey;
+	text-align: center;
+	font-weight: thin;
+}
+
+.latoCo {
+	font-family: 'lato';
+	color: #fff;
+	text-align: center;
+	font-weight: thin;
+	font-size: 15px;
+}
+
+.latoContent {
+	font-family: 'lato';
+	color: #fff;
+	text-align: center;
+	width: 80%;
+	font-size: 20px;
+}
+
+.acomodar {
+	width: 40%;
+}
+
+
+
+.latoContenido {
+	font-family: 'Lato';
+	color: rgb(122, 122, 122);
+}
+
+.blacklisted {
+	font-family: 'blacklisted';
+}
+
+.actonia {
+	font-family: 'actonia PERSONAL USE';
+}
+
+.beyond {
+	font-family: 'beyond the mountains';
+}
+
+.tituloIndex {
+	margin-left: 20%;
+	width: 250px; 
+	font-size: 25px;
+}
+
+.cerrarIndex {
+	width: 70%; 
+	text-align: center;
+}
+
+.teamIndex {
+	width: 40%; 
+	text-align: center;
+}
+
+.botonInto {
+	text-decoration: none;
+	border: 1px solid rgb(121, 101, 112);
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 9px;
+	border-radius: 3px;
+	background-color: rgb(121, 101, 112);
+	width: 65%;
+}
+
+.botonInto:hover {
+	background-color: rgb(321, 101, 112);
+}
+
+.botonIn {
+	text-decoration: none;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	padding: 9px;
+	width: 65%;
+}
+
+.botonIn:hover {
+	color: rgb(193, 28, 61);
+}
+
+.botonInn {
+	text-decoration: none;
+	border: 1px solid rgb(121, 101, 112);
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 9px;
+	border-radius: 3px;
+	background-color: rgb(121, 101, 112);
+	width: 65%;
+}
+
+.botonInn:hover {
+	background-color: rgb(119, 34, 29);
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  60px; top: -5px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.images {
+	left: 60px;
+
+}
+
+.table {
+	padding: 0px 10px 0px 10px;
+}
+
+.botonIconU {
+	text-decoration: none;
+	border: 5px solid rgb(195, 195, 195);
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.botonIconU:hover {
+	border: 5px solid rgb(223, 116, 35);
+}
+
+.botonIconD {
+	text-decoration: none;
+	border: 5px solid rgb(195, 195, 195);
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.botonIconD:hover {
+	border: 5px solid rgb(141, 71, 96);
+}
+
+.botonIconT {
+	text-decoration: none;
+	border: 5px solid rgb(195, 195, 195);
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.botonIconT:hover {
+	border: 5px solid rgb(223, 171, 31);
+}
+
+.fondoGris {
+	background-color: rgba(68, 68, 68, 0.4);
+}
+
+.textPagina {
+	padding-top: 100px;
+}
+
+.paginaImg {
+	background-color: rgb(42, 42, 42);
+}
+
+.paginaForm {
+	background-color: rgba(68, 68, 68, 0.65);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 15px;
+	width: 30%;
+	margin: auto;
+	padding:20px 0px 30px 0px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+
+.teamImg {
+	width: 200px; height: 200px; border-radius: 150px; 
+	-webkit-border-radius: 150px; -moz-border-radius: 150px; 
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8); -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+}
+
+.contTeam {
+	font-family: 'Champagne & Limousines';
+	color: #fff;
+	font-size: 60px;
+	display: inline;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+._espacio_celdas_m {
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 2px;
+	font-size: 15px; 
+}
+
+.color {
+	font-size: 50px;
+	font-family: 'Champagne & Limousines';
+	color: rgb(53, 53, 53);
+}
+
+.colorP {
+	font-size: 20px;
+	font-family: 'lato';
+	color: rgb(122, 122, 122);
+}
+
+.champ {
+	font-family: 'Champagne & Limousines';
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.latoTextuno {
+	font-family: 'Champagne & Limousines';
+	color: rgb(53, 53, 53);
+	border-bottom: medium solid #DF7423;
+	display: inline-table; 
+}
+
+.latoTextcu {
+	font-family: 'Champagne & Limousines';
+	color: rgb(53, 53, 53);
+	border-bottom: medium solid #3D6204;
+	display: inline-table; 
+}
+
+.latoTextdos {
+	font-family: 'Champagne & Limousines';
+	color: rgb(53, 53, 53);
+	border-bottom: medium solid #8D4760;
+	display: inline-table;
+}
+
+.latoTexttres {
+	font-family: 'Champagne & Limousines';
+	color: rgb(53, 53, 53);
+	border-bottom: medium solid #DFAB1F;
+	display: inline-table;
+}
+
+.paginaDisp {
+	background-color: rgb(141, 71, 96);
+}
+
+.paginaAct {
+	background-color: rgb(120, 120, 36);
+}
+
+.paginaOm{
+	background-color: rgb(76, 21, 24);
+}
